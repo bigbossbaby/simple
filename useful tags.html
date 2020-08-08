@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Useful Tags</title>
+	<!--<link rel="stylesheet" type="text/css" href="Assets/stylesheet/division.css"> -->
+</head>
+<body>
+	<header>
+		<h1 id = "Home">Useful Tags</h1>
+		<nav>
+			<a href="#Home">Home</a>
+			<a href="#address"> address</a>
+			<a href="#blockquote">blockquote</a>
+			<a href="#details and summary">details and summary</a>
+			<a href="#Cite">citation</a>
+			<a href="#abbr">abbreviation</a>
+			<a href="#code">code</a>
+			<a href="#sub and sup">subscript and SuperScript</a>
+			<a href="#Buttons">Buttons</a>
+			<a href="#meter">meter</a>
+			<a href="#p">progress</a>
+			<a href="#if">Iframe</a>
+			<a href="#bdo">BDO</a>
+
+
+		</nav>
+		<hr>
+	</header>
+
+	<p>
+		We are starting with the some small tags.<br>
+		The first ones are as follows:
+		<table border="1">
+		<tr>
+			<td>
+		<ul>
+			<li>hr</li>
+			<li>address</li>
+			<li>blockquote</li>
+			<li>details and summary</li>
+			<li>citation</li>
+			<li>abbreviation</li>
+			<li>time</li>
+
+		</ul>
+	</td>
+	
+		
+		<td>
+		<ul>
+			<li>code</li>
+			<li>sub and super Script</li>
+			<li>Buttons</li>
+			<li>Meters</li>
+			<li>Progress</li>
+			<li>Iframe</li>
+			<li>BDO</li>
+		</ul>
+	</td>
+</tr>
+	</table>
+		<hr> 
+	
+	<h3 id="address">
+		Address
+	</h3>
+	<p>Helps search engines trace back to your group</p>
+	<address>
+		Golden Age Schools Complex,<br> 
+		Post office Box 70,<br>
+		Tarkwa.<br>
+		23rd December, 2020.<br>
+	</address>
+<hr>
+	<h3 id="blockquote">Block Quote</h3>
+	<span>The block quote indents a quote</span>
+	<blockquote cite="Nicholas Tesla">
+		"A man is born but twice. The day on earth and the day in after life." Nicholas Tesla
+	</blockquote>
+<hr>
+
+<h3 id = "details and summary">Details And Summary</h3>
+<details>
+	I am still finding ways of understanding this though but i hope this brings me joy. I just figured out this actually works on chrome on my pc.
+	The text in the summay tag is what will appear on the drop down menu.The text in the details is the content of the drop down
+	
+	<summary>
+		The rest suppose comes here. 	
+	</summary>
+</details>
+<hr>
+
+<h3 id = "Cite">Cite a Source</h3>
+<p>
+	The citing of a source is used for making citing things differently
+</p>
+<p>
+	So this is actually cited<cite>https://www.awesome.com</cite>
+</p>
+<hr>
+
+<h3 id="abbr">Abbreviation</h3>
+<p>
+	Abrevation is used to abbreviate things but then their full meaning is displayed once the it is highlighted. To let that happen you need to add a title attr to the abbr tag. Wher ethe title hiolds the full meaning of the abbreviation. However, the screen reader can make use of this abbreviation ot determine if it is an actual abbr or something different else. 
+</p>
+<p>
+	This is an actual abbreviation of the day pof the week: 
+	<abbr title="Sunday">Sun</abbr>
+	<abbr title = "Monday">Mon</abbr>
+</p>
+<hr>
+
+<h3 id="time">Time</h3>
+	<p>Time is used to indicate that something is here that you related to time events. It is actaully an inline level tag.<br>
+		for intstnace:<br>
+		The last time we meat was <time title="2020 aug, 5">yesterday</time>
+	</p>
+	<hr>
+<h3 id="code">Code</h3>
+<p>
+	Honestly i donot know the meaning of <code>code</code>
+	I learnt it makes the reader to know that he or she is reading a post.
+</p>
+
+<h3 id="sub and sup">Subscript and SuperScript</h3>
+<p>
+	So this is basically a <sub>Sub</sub>script and this is apparently a <sup>super</sup>script.
+</p>
+<p>
+	(x+y)<sup>3</sup><br>
+	log<sub>3</sub>3 = 1<br>
+	O<sub>2</sub>
+</p>
+<hr>
+
+
+<h3 id="Buttons">Buttons</h3>
+<p>Button are usually used with JavaScript but for now we are going to do some simple cool stuffs. Buttons without functionality</p>
+<button>open</button>
+<button>close</button><br>
+<input type="Text" name="awesome"><button>search</button>
+
+<hr>
+
+<h3 id="meter">Meter</h3>
+	<p>Meter is used to display levels or something,br
+	for example:</p>
+	<meter min="0" max="100" value="25"></meter><span>25%</span><br>
+	<meter min="0" max="1" value=".5"></meter><span>50% with max of 1</span><br>
+	<meter min="5" max="10" value="10"></meter><span>100% with a min of 5 and a max of 10</span>
+
+<h3 id = "#p">Progress</h3>
+	<p>
+		Progress is like meter but they need javascript to have their ful functionality.
+		<br>It is usually used when it you hope something will fill upto the end.
+		<br>
+		<progress value="30" max="50">
+			<span>downloading: 50%</span>
+	</p>
+<hr>
+
+<h3 id="if">IFrame</h3>
+	<p>Iframe is almost like a nested pages of web. you can put something like a whole webpage in your created webpage. you can interact with it in your web page as though you were in their web page.Lets see if this example will do. 
+	</p>
+	<iframe src="index.html" >Index Html
+	</iframe>
+	<p>
+		you can also deal with the width and the height.
+	</p>
+	<iframe src="index.html" height="500px%" width="500px%" title="index page"></iframe>
+	<hr>
+<h3 id="bdo">BDO - Bi-directional Orientation</h3>
+<p>
+	Bdo is used to determine or
+	 ientation of the text that it is parsed with. it takes parameters like <strong>rtl</strong> meaning right to left and <strong>ltr</strong> meaning left to right orientation.
+</p>
+<span><bdo dir="rtl">This is right to left</bdo></span>
+<br>
+<span> <bdo dir="ltr"> This is left to right</bdo></span>
+<hr>
+
+<footer>
+		<nav>
+			<a href="#Home">Home</a>
+			<a href="#address"> address</a>
+			<a href="#blockquote">blockquote</a>
+			<a href="#details and summary">details and summary</a>
+			<a href="#Cite">citation</a>
+			<a href="#abbr">abbreviation</a>
+			<a href="#code">code</a>
+			<a href="#sub and sup">subscript and SuperScript</a>
+			<a href="#Buttons">Buttons</a>
+			<a href="#meter">meter</a>
+			<a href="#p">progress</a>
+			<a href="#if">Iframe</a>
+			<a href="#bdo">BDO</a>
+
+
+		</nav>
+
+		<p><small>&copy; eric gadzi schools 2020</small></p>
+</footer>
+
+</body>
+</html>
