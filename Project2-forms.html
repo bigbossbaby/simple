@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Application Forms</title>
+	<link rel="stylesheet" type="text/css" href="Styling Sheets/Project2-Forms-CSS.css">
+</head>
+<body style="background: url('20200310_150501.jpg'); background-size: 100% 100%; background-repeat: no-repeat; ">
+
+	<!--<img src="family_pictures/20200310_150501.jpg">
+--><form id="main">
+
+	<!-- Introduction -->
+
+<header>
+	<h1>Application For Permission To Date The Queen Of England
+	</h1>
+	<p><strong>Note: </strong>
+		Form is to be complete at least 21 days prior to date
+	</p>
+</header>
+
+<!-- Personal Data -->
+
+<fieldset id = "personal data">
+	<legend>Personal Data</legend>
+
+	<label for="name">Name</label>
+	<input id="name" type="text" name="name" placeholder="Enter name here" required >
+
+	<label for="Address">Address</label>
+	<input id="Address"  type="text" name="Address" placeholder="Enter address here" required>
+
+	<label for="email">Email</label>
+	<input id="email" type="email" name="email" placeholder="Enter email here" required>
+	
+	<label for="phone">Phone Number</label>
+	<input id="phone" type="text" name="phone number" required="true" min="1" max="10">
+
+	<label for="iq">IQ</label>
+	<input id="iq" type="number" name="iq" placeholder="Enter IQ here">
+
+	<label>Gender</label><br>
+
+	<label>
+		<input type="radio" name="gender" value="Female">
+		Male
+		<br>
+	</label>
+	<label>
+		<input type="radio" name="gender" value="Female">
+		Female
+	</label><br>
+	<label>
+		<input type="radio" name="gender" value="other">
+			Other
+	</label><br>
+
+	<label for="date">Date Of Proposed Outing <br>
+			<input type="date">
+	</label>
+</fieldset>
+
+<!-- Check Box -->
+	<fieldset>
+		<p>Check All That Apply</p>
+
+		<label>
+			<input type="checkbox" name="tattoos" value="yes">
+			I have tattoos and/piecing
+		</label>
+
+		<label>
+			<input type="checkbox" name="age difference" value="2 years older">
+			I am 2 or more years older than my daughter.
+		</label>
+
+		<label>
+			<input type="radio" name="panel" value="yes">
+			i own a panel or V8 ute
+		</label>
+		<label>
+			<input type="checkbox" name="worktype" checked="true">
+			i work full time
+		</label>
+		<label>
+			<input type="checkbox" name="static" value="rich" checked="true">
+			My parents are rich
+		</label>
+		<label>
+			<input type="checkbox" name="place of date" checked>
+			Is the date at a well lit public location
+		</label>
+
+	</fieldset>
+
+	<!-- Political Persuasion -->
+	<fieldset>
+		<label>
+			Political Persuastion
+			<select>
+				<option>
+					NDC
+				</option>
+				<option>
+					NPP
+				</option>
+				<option>
+					Independent
+				</option>
+				<option>
+					Conservative
+				</option>
+			</select>
+		</label><br>
+
+
+		<label>
+			Education Level Completed:
+			<select>
+				<option>
+					University
+				</option>
+				<option>
+					College
+					</option>
+				<option>
+					High School
+					
+				</option>
+				<option>
+					None
+					</option>
+			</select>
+
+		</label>
+		<br>
+
+	</fieldset>
+
+<!-- Essay Part -->
+<fieldset>
+	<legend>Essay Section</legend>
+	<label>In 50 words or more explain why you want ti date the queen<br>
+	<textarea rows="5" cols="40" placeholder="Enter essay here" spellcheck required >
+	</textarea>
+</label><br>
+	
+	<label>
+		Please upload contact details here. 2 reference.<br>
+		<textarea rows="5" cols="40" placeholder="Enter text here">
+		</textarea>
+	</label>
+</fieldset>
+
+Upload Police Clearance Certificate, Bank Statement and Medical Certificate here: <br>
+<input type="file" name="Police Clearance" multiple="true">
+<br>
+<button>Send Your Application</button>
+</form>
+
+
+</body>
+</html>
