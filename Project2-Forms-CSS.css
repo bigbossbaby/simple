@@ -1,0 +1,66 @@
+body{
+	display: table;
+	background-color: lightgoldenrodyellow;
+	font-family: Anaheim, Arial, Vernada, Courier, "Times New Romans";
+	image-rendering: optimizeQuality;
+	
+}
+img{
+	float: left;
+
+}
+
+#main{
+	background-color: white;
+	padding: 25px;	
+	text-align: left;
+	display: block;
+	margin-left: 200px;
+	margin-right:200px;
+	margin-top: 100px;
+	margin-bottom:100px;
+	border:solid 5px lightgrey;
+	/*background-color: lightcyan;*/
+	background-color: lightgoldenrodyellow;
+
+
+	
+}
+h1{
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	background: transparent;
+	text-transform: capitalize;
+	font-family: "Sagoe Script", "Arial Black";
+}
+form{
+	text-align: center;
+	object-position: center;
+	margin: 200px;
+}
+/
+strong{
+	color: red;
+}
+legend{
+	background-color: rgba(120,140,138,0.2);
+}
+label{
+	display: block;
+}
+
+fieldset{
+	width: 50%;
+	display: table-cell;
+	margin-bottom: 10px;
+	margin-left: 200px; 
+}
+strong{
+	color: red;
+}
+button{
+	background-color: blue;
+	color: white;
+}
+input-type
